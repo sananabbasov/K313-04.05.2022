@@ -1,0 +1,81 @@
+
+<style>
+    body{
+      background-color: #222;
+   
+    }
+    
+    .container{
+      position: relative;
+      top:35
+    }
+     .left{
+       position: relative;
+     transform: rotate(-45deg);
+      left:25;
+       top:-10
+       
+    }
+    .left .top-line-orange{
+       background-color: #F2994A;
+      width: 100px;
+      height: 30px;
+      position: absolute;
+       top:0;
+      left: 50;
+      bottom: 0;
+      border-top-left-radius: 10px
+    }
+   
+    .left .bottom-line-orange{
+       background-color: #F2994A;
+      width: 60px;
+      height: 30px;
+      transform: rotate(-90deg);
+       position: absolute;
+     top:35;
+      bottom:0;
+      left: 35;
+       border-bottom-left-radius: 10px
+    }
+      .right{
+            position: relative;
+           transform: rotate(-225deg);
+            top: 240;
+        }
+    
+     .right .bottom-line-orange{
+       background-color: #2D9CDB;
+          width: 60px;
+          height: 30px;
+          transform: rotate(-90deg);
+           position: absolute;
+             top:65;
+          bottom:0;
+          left: 41;
+           border-bottom-left-radius: 10px
+    }
+    
+      .right .top-line-orange{
+       background-color: #2D9CDB;
+      width: 100px;
+      height: 30px;
+      position: absolute;
+       top:30;
+      left: 56;
+      bottom: 0;
+      border-top-left-radius: 10px
+    }
+  </style>
+  <div class="container">
+      
+    <div class="left">
+      <div class="top-line-orange"></div>
+      <div class="bottom-line-orange"></div>
+     </div>
+    <div class="right">
+      <div class="top-line-orange"></div>
+      <div class="bottom-line-orange"></div>
+     </div>
+  </div>
+  <!-- https://cssbattle.dev/play/21 -->
